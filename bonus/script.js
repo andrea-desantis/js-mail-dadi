@@ -2,18 +2,18 @@
 // Snack 1
 // Inserisci un numero, se è pari stampa il numero, se è dispari stampa il numero successivo.
 
-let numero = prompt('inserisci un numero');
-if(numero % 2 === 0){
-    console.log(numero);
-} 
-else{
-    numero++;
-    console.log(numero);
-}    
+
+
+// let numero = prompt('inserisci un numero');
+// if(numero % 2 === 0){
+//     console.log(numero);
+// } 
+// else{
+//     numero++;
+//     console.log(numero);
+// }    
 
     
-
-
 
 // ---------------------------------------------------------------------------------
 // Snack 2
@@ -22,7 +22,13 @@ else{
 
 
 
+let parola1 = prompt('inserisci la prima parola:');
+let parola2 = prompt('inserisci la seconda parola:');
 
+if(parola1.length >= parola2.length ){
+    console.log(parola1 + ' ' + parola2);
+} else
+    console.log(parola2 + ' ' + parola1);
 
 
 // ---------------------------------------------------------------------------------
