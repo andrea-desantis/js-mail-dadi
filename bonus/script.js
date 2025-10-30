@@ -56,7 +56,18 @@
 // Stampa il cubo dei primi N numeri,
 // dove N è un numero indicato dall’utente.
 
+let numUt = prompt('inserisci quanti dei primi numeri di cui fare il cubo:');
+let cubo = [];
 
+for(let i=0; i<numUt; i++){
+    cubo[i]=i+1;
+}
+console.log( 'i numeri scelti sono: ' + cubo );
+
+for(let i=0; i<numUt; i++){
+    cubo[i]= cubo[i] ** 3;
+}
+console.log('ecco i numeri scelti ma al cubo: ' + cubo);
 
 
 
