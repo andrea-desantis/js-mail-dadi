@@ -123,7 +123,37 @@
 // Crea due array che hanno un numero di elementi diversi.  Aggiungi elementi all’array che ha 
 // meno elementi fino a quando ne avrà tanti quanti l’altro.
 
-let array1 = [];
-let array2 = [];
 
-for
+let celle1 = Math.floor(Math.random() * 10);
+let celle2 = Math.floor(Math.random() * 10);
+let array1 = [celle1];
+let array2 = [celle2];
+
+for(let i=0; i<=celle1; i++){
+    array1[i] = Math.floor(Math.random() * 10) +1
+}
+for(let i=0; i<=celle2; i++){
+    array2[i] = Math.floor(Math.random() * 10) +1
+}
+
+console.log('vettore 1: ' + array1);
+console.log('vettore 2: ' + array2);
+
+if(celle1>celle2){
+
+    for(let i=celle2; i<celle1; i++){
+        array2.push(array1[i]);
+    }
+    
+    console.log('vettore 1: ' + array1);
+    console.log('vettore 2 corretto: ' + array2);
+} else 
+    if(celle1<celle2){
+       
+        for(let i=celle1; i<celle2; i++){
+            array1.push(array2[i]);
+        }
+        console.log('vettore 1 corretto: ' + array1);
+        console.log('vettore 2: ' + array2);
+    } else
+        console.log('ricarica la pagina, i vettori hanno la stessa lunghezza.');
