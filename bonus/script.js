@@ -22,13 +22,13 @@
 
 
 
-let parola1 = prompt('inserisci la prima parola:');
-let parola2 = prompt('inserisci la seconda parola:');
+// let parola1 = prompt('inserisci la prima parola:');
+// let parola2 = prompt('inserisci la seconda parola:');
 
-if(parola1.length >= parola2.length ){
-    console.log(parola1 + ' ' + parola2);
-} else
-    console.log(parola2 + ' ' + parola1);
+// if(parola1.length >= parola2.length ){
+//     console.log(parola1 + ' ' + parola2);
+// } else
+//     console.log(parola2 + ' ' + parola1);
 
 
 // ---------------------------------------------------------------------------------
@@ -37,6 +37,17 @@ if(parola1.length >= parola2.length ){
 // compongono il numero.
 
 
+
+// let numero = prompt('inserisci un numero da 4 cifre:');
+// let somma = 0;
+// if (numero.length === 4){
+//     for(let i=0; i<4; i++){
+//         somma = somma + parseInt(numero[i]);
+//     }
+//     console.log('la somma di tutte e 4 le cifre è: ' + somma);
+// }
+// else
+//     console.log('il numero ha più o meno di 4 cifre, ricaricare la pagina e inserirne uno appropriato.');
 
 
 
