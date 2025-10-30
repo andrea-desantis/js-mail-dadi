@@ -56,20 +56,20 @@
 // Stampa il cubo dei primi N numeri,
 // dove N è un numero indicato dall’utente.
 
-let numUt = prompt('inserisci quanti dei primi numeri di cui fare il cubo:');
-let cubo = [];
-
-for(let i=0; i<numUt; i++){
-    cubo[i]=i+1;
-}
-console.log( 'i numeri scelti sono: ' + cubo );
-
-for(let i=0; i<numUt; i++){
-    cubo[i]= cubo[i] ** 3;
-}
-console.log('ecco i numeri scelti ma al cubo: ' + cubo);
 
 
+// let numUt = prompt('inserisci quanti dei primi numeri di cui fare il cubo:');
+// let cubo = [];
+
+// for(let i=0; i<numUt; i++){
+//     cubo[i]=i+1;
+// }
+// console.log( 'i numeri scelti sono: ' + cubo );
+
+// for(let i=0; i<numUt; i++){
+//     cubo[i]= cubo[i] ** 3;
+// }
+// console.log('ecco i numeri scelti ma al cubo: ' + cubo);
 
 
 
@@ -77,6 +77,8 @@ console.log('ecco i numeri scelti ma al cubo: ' + cubo);
 // Snack 5
 // Generatore di “nomi cognomi” casuali: il Grande Gatsby ha una lista di nomi e una lista di 
 // cognomi, e da queste vuole generare una falsa lista di 5 invitati con nome e cognome.
+
+
 
 // const nomi = [
 //   "Albert",
@@ -104,7 +106,14 @@ console.log('ecco i numeri scelti ma al cubo: ' + cubo);
 //   "Beckham"
 // ];
 
+// let numNome = 0;
+// let numCognome = 0;
 
+// for(let i=0; i<5; i++){
+//     numNome = Math.floor(Math.random() * 10) ;
+//     numCognome =  Math.floor(Math.random() * 10);
+//     console.log('l invitato numero ' + (i+1) + ' è ' + nomi[numNome] + ' ' + cognomi[numCognome] ); 
+// }
 
 
 
@@ -114,4 +123,7 @@ console.log('ecco i numeri scelti ma al cubo: ' + cubo);
 // Crea due array che hanno un numero di elementi diversi.  Aggiungi elementi all’array che ha 
 // meno elementi fino a quando ne avrà tanti quanti l’altro.
 
+let array1 = [];
+let array2 = [];
 
+for
