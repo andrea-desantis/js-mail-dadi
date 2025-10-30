@@ -26,24 +26,38 @@
 //    svolgere al nostro programma così come lo faremmo "a mano"
 
 
-// 1) MAIL
+// 1) MAIL---------------------------------------------
 
-// dati
+// let email = ['gmail','alice','hotmail','live','outlook','yahoo'];
+// let utente = prompt('inserire la propria email');
 
-let email = ['gmail','alice','hotmail','live','outlook','yahoo'];
-let utente = prompt('inserire la propria email');
+// for(let i=0; i<6; i++){
 
-for(let i=0; i<6; i++){
-
-    if(utente.indexOf(email[i]) !== -1 ){
+//     if(utente.indexOf(email[i]) !== -1 ){
         
-        console.log( 'account ' + email[i] + ' supportato');
-        i=6;
-    } 
-    else if(i===5){
-        console.log('account non supportato');
-    }
+//         console.log( 'account ' + email[i] + ' supportato');
+//         i=6;
+//     } 
+//     else if(i===5){
+//         console.log('account non supportato');
+//     }
         
 
+// }
+
+// 2) DADI----------------------------------------------
+let computer = Math.floor(Math.random() * 6) + 1;
+let utente = Math.floor(Math.random() * 6) + 1;
+console.log('i numeri usciti sono ' + computer + '(computer) e ' + utente + '(utente)' );
+if(computer > utente){
+    console.log('hai perso!');
+}
+
+if(computer < utente){
+    console.log('hai vinto!');
+}
+
+if(computer === utente){
+    console.log('patta!');
 }
 
